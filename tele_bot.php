@@ -11,7 +11,7 @@ $content = file_get_contents("php://input");
 
 $table_users_name = "users_list"; // Nama table untuk list user. Silahkan sesuaikan.
 
-$token = '1817618179:AAHPHmv51lbNCTywp-hbpwk44XAuc4VLtIY'; // Ubah token ini dengan token bot telegram kamu.
+$token = 'TOKEN_BOT'; // Ubah token ini dengan token bot telegram kamu.
 
 $apiLink = "https://api.telegram.org/bot$token/"; 
 $update = json_decode($content, true);
