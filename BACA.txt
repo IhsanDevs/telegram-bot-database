@@ -1,0 +1,9 @@
+1. Silahkan ubah bagian 'db_conn.php' dengan data yang menyesuaikan dengan database kamu.
+
+2. Kemudian ubah value variable '$table_users_name' pada file 'admin/delete_data.php' dan file 'tele_bot.php'.
+
+3. Lalu upload semua script ini pada web hosting pilihan kamu. Disini saya memakai heroku.
+
+4. Lalu setting webhook bot telegram kamu pada halaman 'webhook.php' terlebih dahulu dan arahkan webhook nya ke: 'https://alamat_web_kamu.com/tele_bot.php'. Harap diperhatikan! Untuk settingan webhook, website kamu harus SSL atau diawali dengan https. 😇
+
+5. Selesai deh. Selanjutnya kamu tinggal test mengetikkan sesuatu pada bot kamu, dan periksa halaman admin.
